@@ -19,7 +19,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.12.1",
     "nodemailer": "^6.10.0",
-    "openai": "^4.97.0",
+    "openai": "^4.98.0",
     "otp-generator": "^4.0.1",
     "socket.io": "^4.8.1",
     "twilio": "^5.5.0"

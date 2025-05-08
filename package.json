@@ -1,0 +1,23 @@
+{
+    "name": "team-collaboration-project",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "cd backend && npm start",
+        "client": "cd frontend && npm run dev"
+    },
+    "devDependencies": {
+        "concurrently": "^7.0.0"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "^3.16.1",
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.0",
+        "framer-motion": "^12.9.4",
+        "jspdf": "^3.0.1",
+        "jspdf-autotable": "^5.0.2",
+        "jwt-decode": "^4.0.0",
+        "react-datepicker": "^8.2.1",
+        "react-router-dom": "^7.5.3"
+    }
+}
